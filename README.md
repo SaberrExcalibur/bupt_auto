@@ -1,5 +1,6 @@
 # bupt-ncov-report-action（saber_ver1.0）
 该版本修改于@imtsuki；
+
 使用 GitHub Actions 自动填报北邮疫情打卡；
 
 该Action 会自动在北京时间的每天 8:00 AM 进行填报；
@@ -20,10 +21,12 @@
 ## 检查结果
 
 无需任何设置。如果运行失败，GitHub 会向你的邮箱发送一封邮件。
+
 务必注意，如果你更改了任何参数，都必须在上面Actions 栏，点击 Re-run Jobs 来重新运行。
 
 ## 其它
+
 此代码不用于商用，祝疫情早日结束
-多多star
+
 thx！
 
