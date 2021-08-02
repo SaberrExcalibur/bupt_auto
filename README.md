@@ -1,9 +1,6 @@
 # bupt-ncov-report-action
 
-使用 GitHub Actions 自动填报北邮 COVID-19 疫情信息。
-
-这个 Action 会自动在北京时间的每天 8:00 AM 进行填报。
-
+使用 GitHub Actions 自动填报北邮 COVID-19 疫情信息。该Action 会自动在北京时间的每天 8:00 AM 进行填报。
 为了防止网络波动造成的失败，会间隔十分钟尝试六次。
 
 ## 此代码不用于商用，只限自己摸鱼测试。。。效果不能100%保障，出现无效打卡概不负责
@@ -25,20 +22,9 @@
 
 ### Telegram Bot
 
-如果你知道怎么使用 Telegram Bot，则可以额外设置如下的 Secrets 来用 Bot 给你发送结果：
+当然如果你知道怎么使用 Telegram Bot，则可以额外设置如下的 Secrets 来用 Bot 给你发送结果：
 
 - `TG_BOT_TOKEN`: 你的 Bot 的 Token；
 - `TG_CHAT_ID`: 你和 Bot 的 Chat ID。
 
-## 高级设置
 
-你可以在 `.github/workflows/main.yml` 中来设置每天运行的时间：
-
-```yml
-on:
-  schedule:
-    - cron: '0 0 * * *'
-```
-
-格式是标准的 cron 格式，第一个数字代表分钟，第二个数字代表小时。例如，`0 1 * * *` 表示在每天
-格林尼治时间的 1:00 AM，也就是在北京时间的 9:00 AM 自动运行。
