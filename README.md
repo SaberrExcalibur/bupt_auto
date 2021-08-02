@@ -2,7 +2,7 @@
 
 使用 GitHub Actions 自动填报北邮 COVID-19 疫情信息。
 
-![Telegram](img/telegram.jpg)
+
 
 这个 Action 会自动在北京时间的每天 8:00 AM 进行填报。
 
