@@ -1,4 +1,4 @@
-# bupt-ncov-report-action
+# bupt-ncov-report-action（saber_ver1.0）
 
 使用 GitHub Actions 自动填报北邮 COVID-19 疫情信息。该Action 会自动在北京时间的每天 8:00 AM 进行填报。
 为了防止网络波动造成的失败，会间隔十分钟尝试六次。
