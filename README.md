@@ -17,14 +17,10 @@
 ## 检查结果
 
 无需任何设置。如果运行失败，GitHub 会向你的邮箱发送一封邮件。
+务必注意，如果你更改了任何参数，都必须在上面Actions 栏，点击 Re-run Jobs 来重新运行。
 
-如果你更改了设置，想手动重新运行，可以点进上方的 Actions 栏，点击 Re-run Jobs 来重新运行。
-
-### Telegram Bot
-
-当然如果你知道怎么使用 Telegram Bot，则可以额外设置如下的 Secrets 来用 Bot 给你发送结果：
-
-- `TG_BOT_TOKEN`: 你的 Bot 的 Token；
-- `TG_CHAT_ID`: 你和 Bot 的 Chat ID。
-
+## 其它
+此代码不用于商用，祝疫情早日结束
+多多star
+thx！
 
